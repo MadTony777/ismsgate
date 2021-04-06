@@ -1,0 +1,11 @@
+<vsk:Send  xmlns:vsk="http://www.vsk.ru">
+         <vsk:requestXml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+  <RequestSendSMS schemaVersion="1.0" xsi:schemaLocation="http://ws.messaging10 http://integration.vtbins.ru/schema/wsmessaging-1.0.xsd"
+xmlns="http://ws.messaging10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ToNumber>79026547896</ToNumber>
+  <FromNumber>VSK</FromNumber>
+  <Message>Message</Message>
+  <Channel>chanelName</Channel>
+</RequestSendSMS>
+]]></vsk:requestXml>
+      </vsk:Send>

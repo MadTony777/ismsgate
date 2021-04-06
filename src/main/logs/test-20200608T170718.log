@@ -1,0 +1,8 @@
+145  [main] INFO  IsmsGate.UnitTests - Starting test: Optional[public void IsmsGate.UnitTests.IsmsGate_Positive_noAuth_COMPLETED() throws java.lang.Exception]
+489  [main] INFO  IsmsGate.UnitTests - End test
+494  [main] INFO  IsmsGate.UnitTests - Starting test: Optional[public void IsmsGate.UnitTests.IsmsGate_Positive_Auth_COMPLETED() throws java.lang.Exception]
+572  [main] INFO  IsmsGate.UnitTests - End test
+575  [main] INFO  IsmsGate.UnitTests - Starting test: Optional[public void IsmsGate.UnitTests.IsmsGate_Negative_Auth_COMPLETED() throws java.lang.Exception]
+647  [main] INFO  IsmsGate.UnitTests - End test
+649  [main] INFO  IsmsGate.UnitTests - Starting test: Optional[public void IsmsGate.UnitTests.IsmsGate_Negative_noAuth_COMPLETED() throws java.lang.Exception]
+744  [main] INFO  IsmsGate.UnitTests - End test

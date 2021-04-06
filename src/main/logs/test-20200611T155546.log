@@ -1,0 +1,34 @@
+171  [main] INFO  IsmsGate.UnitTests - Starting test: IsmsGate_Positive_noAuth_COMPLETED()
+3815 [main] INFO  IsmsGate.UnitTests - SoapResponse{body=<?xml version="1.0" encoding="UTF-8" standalone="no"?><SendResponse xmlns="http://www.vsk.ru"><return/></SendResponse>, httpHeaders={Accept=*/*; q=.2, Server=Jetty(8.1.19.v20160209), breadcrumbId=ID-esb-stage-38447-1591857057672-55-77, X-VSK-CorrelationId=f2611b40-d360-4108-a520-928988ff9dbd, User-Agent=Java/12.0.1, Host=esb-stage:8501, JMSCorrelationID=f2611b40-d360-4108-a520-928988ff9dbd, Content-Length=181, SoapAction=Send, Content-Type=text/xml;charset=UTF-8}, isFault=false, faultCode='null', faultString='null'}
+3828 [main] INFO  IsmsGate.UnitTests - End test
+
+3834 [main] INFO  IsmsGate.UnitTests - Starting test: IsmsGate_Positive_Auth_COMPLETED()
+3918 [main] INFO  IsmsGate.UnitTests - SoapResponse{body=<?xml version="1.0" encoding="UTF-8" standalone="no"?><SendResponse xmlns="http://www.vsk.ru"><return/></SendResponse>, httpHeaders={Accept=*/*; q=.2, Server=Jetty(8.1.19.v20160209), breadcrumbId=ID-esb-stage-38447-1591857057672-55-81, X-VSK-CorrelationId=34d0d3df-08ca-423a-9ec2-46f0a72fa2b9, User-Agent=Java/12.0.1, Host=esb-stage:8501, JMSCorrelationID=34d0d3df-08ca-423a-9ec2-46f0a72fa2b9, Content-Length=181, SoapAction=Send, Content-Type=text/xml;charset=UTF-8}, isFault=false, faultCode='null', faultString='null'}
+3919 [main] INFO  IsmsGate.UnitTests - End test
+
+3922 [main] INFO  IsmsGate.UnitTests - Starting test: IsmsGate_Negative_Auth_COMPLETED()
+4014 [main] INFO  IsmsGate.UnitTests - SoapResponse{body=<?xml version="1.0" encoding="UTF-8" standalone="no"?><SendResponse xmlns="http://www.vsk.ru"><return>Validation failed for: org.apache.xerces.jaxp.validation.SimpleXMLSchema@5bd4da07
+errors: [
+org.xml.sax.SAXParseException: cvc-pattern-valid: Value '790265478961' is not facet-valid with respect to pattern '\d{11}' for type '#AnonType_ToNumberRequestSendSMS'., Line : -1, Column : -1
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '790265478961' of element 'ToNumber' is not valid., Line : -1, Column : -1
+]. Exchange[ID-esb-stage-38447-1591857057672-55-88][Message: &lt;RequestSendSMS xmlns="http://ws.messaging10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xsi:schemaLocation="http://ws.messaging10 http://integration.vtbins.ru/schema/wsmessaging-1.0.xsd"&gt;
+  &lt;ToNumber&gt;790265478961&lt;/ToNumber&gt;
+  &lt;FromNumber&gt;VSK&lt;/FromNumber&gt;
+  &lt;Message&gt;Message&lt;/Message&gt;
+  &lt;Channel&gt;chanelName&lt;/Channel&gt;
+&lt;/RequestSendSMS&gt;] EXCEPTION: </return></SendResponse>, httpHeaders={Accept=*/*; q=.2, Server=Jetty(8.1.19.v20160209), breadcrumbId=ID-esb-stage-38447-1591857057672-55-85, X-VSK-CorrelationId=71b3fa9e-f09b-4f4e-9ee1-b4c7594ea419, User-Agent=Java/12.0.1, Host=esb-stage:8501, JMSCorrelationID=71b3fa9e-f09b-4f4e-9ee1-b4c7594ea419, Content-Length=1096, SoapAction=Send, Content-Type=text/xml;charset=UTF-8}, isFault=false, faultCode='null', faultString='null'}
+4015 [main] INFO  IsmsGate.UnitTests - End test
+
+4018 [main] INFO  IsmsGate.UnitTests - Starting test: IsmsGate_Negative_noAuth_COMPLETED()
+4538 [main] INFO  IsmsGate.UnitTests - SoapResponse{body=<?xml version="1.0" encoding="UTF-8" standalone="no"?><SendResponse xmlns="http://www.vsk.ru"><return>Validation failed for: org.apache.xerces.jaxp.validation.SimpleXMLSchema@5bd4da07
+errors: [
+org.xml.sax.SAXParseException: cvc-pattern-valid: Value '790265478961' is not facet-valid with respect to pattern '\d{11}' for type '#AnonType_ToNumberRequestSendSMS'., Line : -1, Column : -1
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '790265478961' of element 'ToNumber' is not valid., Line : -1, Column : -1
+]. Exchange[ID-esb-stage-38447-1591857057672-55-92][Message: &lt;RequestSendSMS xmlns="http://ws.messaging10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xsi:schemaLocation="http://ws.messaging10 http://integration.vtbins.ru/schema/wsmessaging-1.0.xsd"&gt;
+  &lt;ToNumber&gt;790265478961&lt;/ToNumber&gt;
+  &lt;FromNumber&gt;VSK&lt;/FromNumber&gt;
+  &lt;Message&gt;Message&lt;/Message&gt;
+  &lt;Channel&gt;chanelName&lt;/Channel&gt;
+&lt;/RequestSendSMS&gt;] EXCEPTION: </return></SendResponse>, httpHeaders={Accept=*/*; q=.2, Server=Jetty(8.1.19.v20160209), breadcrumbId=ID-esb-stage-38447-1591857057672-55-89, X-VSK-CorrelationId=b760fd28-b5dd-45f5-a612-1c1334e1e70e, User-Agent=Java/12.0.1, Host=esb-stage:8501, JMSCorrelationID=b760fd28-b5dd-45f5-a612-1c1334e1e70e, Content-Length=1096, SoapAction=Send, Content-Type=text/xml;charset=UTF-8}, isFault=false, faultCode='null', faultString='null'}
+4538 [main] INFO  IsmsGate.UnitTests - End test
+

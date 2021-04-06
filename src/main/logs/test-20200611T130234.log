@@ -1,0 +1,12 @@
+181  [main] INFO  IsmsGate.UnitTests - Starting test: IsmsGate_Positive_noAuth_COMPLETED()
+453  [main] INFO  IsmsGate.UnitTests - End test
+
+457  [main] INFO  IsmsGate.UnitTests - Starting test: IsmsGate_Positive_Auth_COMPLETED()
+529  [main] INFO  IsmsGate.UnitTests - End test
+
+531  [main] INFO  IsmsGate.UnitTests - Starting test: IsmsGate_Negative_Auth_COMPLETED()
+570  [main] INFO  IsmsGate.UnitTests - End test
+
+571  [main] INFO  IsmsGate.UnitTests - Starting test: IsmsGate_Negative_noAuth_COMPLETED()
+609  [main] INFO  IsmsGate.UnitTests - End test
+
